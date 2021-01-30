@@ -1,7 +1,9 @@
 # Getting Started with Create React App for DSC UGM 
 
+Download via zip or Git Clone on the right corner green button. Open in VSCode
 
-First, we need to install the dependency 
+
+We need to install the dependency 
 ### `npm install`
 
 To run the app, you can use 
