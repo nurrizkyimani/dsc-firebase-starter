@@ -1,3 +1,22 @@
+# Getting Started with Create React App for DSC UGM 
+
+
+First, we need to install the dependency 
+### `npm install`
+
+To run the app, you can use 
+### `npm run start`
+
+Go to the browswer, and enter, react usually use port 3000 or 3001
+
+### `http://localhost:3000/`
+
+
+Anytime you save,it will automaticly re run the app
+
+
+# From the Create React App 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
