@@ -5,7 +5,7 @@ function App() {
 
   // React HOOKS
   // Array of todos, 
-  const [discuslist, setDiscuslist] = useState([{ id: 1, title: 'saham ANTM', desc: 'jual di Rp 100' }])
+  const [todos, setTodos] = useState([{ id: 1, title: 'tugas 1', desc: 'jam 2' }])
   //capture input dari form desc
   const [desc, setDesc] = useState('');
 
@@ -42,16 +42,16 @@ function App() {
 
           {/* LIST TODO  */}
 					<div className="border py-4 mt-5 space-y-3">
-						{discuslist.map((eachdiscus) => {
+						{todos.map((todo) => {
 							return (
                 <div
-                  key={eachdiscus.id}
+                  key={todo.id}
                   className="border border-black w-full">
                   {/* TITLE */}
-                  <p className="font-bold text-lg">{eachdiscus.title}</p>
+                  <p className="font-bold text-lg">{todo.title}</p>
                   
                   {/* DESC  */}
-									<p className="text-grey-darker mb-2 "> {eachdiscus.desc}</p>
+									<p className="text-grey-darker mb-2 "> {todo.desc}</p>
                   
                   {/* DELETE BUTTON*/}
             
